@@ -1,0 +1,382 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-20 11:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: functions.php:27 admin/form.php:177
+msgid "Unsubscriber"
+msgstr ""
+
+#: functions.php:31
+msgid "Unsubscribe request are accept."
+msgstr ""
+
+#: functions.php:38 admin/form.php:176
+msgid "Subscriber"
+msgstr ""
+
+#: functions.php:42
+msgid "Thank You For Subscriber."
+msgstr ""
+
+#: functions.php:84
+msgid "You are logged in!"
+msgstr ""
+
+#: notify-subscribers.php:27
+msgid ""
+"notify-subscribers plugin's core files are missing! Please re-install the "
+"plugin."
+msgstr ""
+
+#. Name of the plugin
+#: notify-subscribers.php:55 notify-subscribers.php:55
+#: admin/widgets/widget.php:10
+msgid "Notify Subscribers"
+msgstr ""
+
+#: public/class-notify-subscribers-public.php:14
+#: public/class-notify-subscribers-public.php:15
+msgid "The field is required"
+msgstr ""
+
+#: public/class-notify-subscribers-public.php:16
+msgid "The e-mail address entered is invalid"
+msgstr ""
+
+#: includes/class-notify-subscribers.php:228
+#, php-format
+msgid "%s: "
+msgstr ""
+
+#: includes/class-notify-subscribers.php:229
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/class-notify-subscribers.php:230
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: includes/class-notify-subscribers.php:232
+#: admin/class-notify-subscribers-admin.php:53 admin/widgets/widget.php:22
+#: admin/widgets/widget.php:26
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: admin/form.php:124
+msgid "save"
+msgstr ""
+
+#: admin/form.php:135
+msgid "You do not have admin privileges!"
+msgstr ""
+
+#: admin/form.php:148
+msgid "Settings saved."
+msgstr ""
+
+#: admin/form.php:149
+msgid "Dismiss this notice."
+msgstr ""
+
+#: admin/form.php:161
+msgid "Settings"
+msgstr ""
+
+#: admin/form.php:162
+msgid "Email Templates"
+msgstr ""
+
+#: admin/form.php:163
+msgid "Error Message"
+msgstr ""
+
+#: admin/form.php:164
+msgid "Short Code"
+msgstr ""
+
+#: admin/form.php:165
+msgid "User Details"
+msgstr ""
+
+#: admin/form.php:175
+msgid "Notification"
+msgstr ""
+
+#: admin/form.php:193
+msgid "Following are the keywords, you can you use in email template."
+msgstr ""
+
+#: admin/form.php:194
+msgid ""
+"Copy the keyword with bracket & curly braces and paste it into email "
+"template."
+msgstr ""
+
+#: admin/form.php:197
+msgid "Global ShortCode"
+msgstr ""
+
+#: admin/form.php:199
+msgid "[{SITE_NAME}]"
+msgstr ""
+
+#: admin/form.php:199
+msgid "site name"
+msgstr ""
+
+#: admin/form.php:200
+msgid "[{SITE_URL}]"
+msgstr ""
+
+#: admin/form.php:201
+msgid "[{SITE_LINK}]"
+msgstr ""
+
+#: admin/form.php:201
+msgid "siteurl"
+msgstr ""
+
+#: admin/form.php:202
+msgid "[{SITE_DESCRIPTION}]"
+msgstr ""
+
+#: admin/form.php:202
+msgid "site description"
+msgstr ""
+
+#: admin/form.php:203
+msgid "[{ADMIN_EMAIL}]"
+msgstr ""
+
+#: admin/form.php:204
+msgid "[{UNSUBSCRIBE}]"
+msgstr ""
+
+#: admin/form.php:204
+msgid "Unsubscriber "
+msgstr ""
+
+#: admin/form.php:204
+msgid "page. (Use ONLY for Post Notification email)"
+msgstr ""
+
+#: admin/form.php:208
+msgid "Post/Page Notification ShortCode"
+msgstr ""
+
+#: admin/form.php:210
+msgid "[{POST_NAME}]"
+msgstr ""
+
+#: admin/form.php:210
+msgid "Title of the published post"
+msgstr ""
+
+#: admin/form.php:211
+msgid "[{POST_CONTENT}]"
+msgstr ""
+
+#: admin/form.php:211
+msgid "Content of published post"
+msgstr ""
+
+#: admin/form.php:212
+msgid "[{POST_EXCERPT}]"
+msgstr ""
+
+#: admin/form.php:212
+msgid "Excerpt of published post. Note: Excerpt field must not empty!"
+msgstr ""
+
+#: admin/form.php:213
+msgid "[{POST_CATEGORIES}]"
+msgstr ""
+
+#: admin/form.php:213
+msgid "Category of published post"
+msgstr ""
+
+#: admin/form.php:214
+msgid "[{POST_TAGS}]"
+msgstr ""
+
+#: admin/form.php:214
+msgid "Tags of published post"
+msgstr ""
+
+#: admin/form.php:215
+msgid "[{POST_FEATURED_IMAGE}]"
+msgstr ""
+
+#: admin/form.php:215
+msgid ""
+"Featured image (thumbnail) of published post. (Use ONLY with Post "
+"Notification)"
+msgstr ""
+
+#: admin/form.php:216
+msgid "[{PERMALINK}]"
+msgstr ""
+
+#: admin/form.php:216
+msgid "URL of published post"
+msgstr ""
+
+#: admin/form.php:217
+msgid "[{AUTHOR}]"
+msgstr ""
+
+#: admin/form.php:217
+msgid "Author Name of published post"
+msgstr ""
+
+#: admin/form.php:218
+msgid "[{AUTHOR_EMAIL}]"
+msgstr ""
+
+#: admin/form.php:218
+msgid "Email of author of published post"
+msgstr ""
+
+#: admin/form.php:224
+msgid "Export To CSV"
+msgstr ""
+
+#: admin/form.php:225
+msgid "Export To PDF"
+msgstr ""
+
+#: admin/form.php:230
+msgid "#"
+msgstr ""
+
+#: admin/form.php:231 admin/fields.php:30 admin/fields.php:235
+msgid "First Name"
+msgstr ""
+
+#: admin/form.php:232 admin/fields.php:62
+msgid "Last Name"
+msgstr ""
+
+#: admin/form.php:233
+msgid "Username"
+msgstr ""
+
+#: admin/form.php:234 admin/fields.php:97 admin/fields.php:244
+msgid "Email"
+msgstr ""
+
+#: admin/form.php:235
+msgid "Role"
+msgstr ""
+
+#: admin/form.php:236
+msgid "Member Since"
+msgstr ""
+
+#: admin/form.php:266
+msgid "Previous"
+msgstr ""
+
+#: admin/form.php:267
+msgid "Next"
+msgstr ""
+
+#: admin/fields.php:21
+msgid "Form"
+msgstr ""
+
+#: admin/fields.php:24 admin/fields.php:50 admin/fields.php:82
+#: admin/fields.php:112 admin/fields.php:133
+msgid "Class"
+msgstr ""
+
+#: admin/fields.php:33 admin/fields.php:65
+msgid "Enable"
+msgstr ""
+
+#: admin/fields.php:38 admin/fields.php:70 admin/fields.php:100
+msgid "Label"
+msgstr ""
+
+#: admin/fields.php:44 admin/fields.php:76 admin/fields.php:106
+msgid "Wrapper"
+msgstr ""
+
+#: admin/fields.php:56 admin/fields.php:88 admin/fields.php:118
+msgid "Placeholder"
+msgstr ""
+
+#: admin/fields.php:124
+msgid "submit button"
+msgstr ""
+
+#: admin/fields.php:127
+msgid "Name"
+msgstr ""
+
+#: admin/fields.php:160
+msgid "Notification Template"
+msgstr ""
+
+#: admin/fields.php:164 admin/fields.php:182 admin/fields.php:200
+msgid "Subject"
+msgstr ""
+
+#: admin/fields.php:170 admin/fields.php:188 admin/fields.php:206
+msgid "Body"
+msgstr ""
+
+#: admin/fields.php:178
+msgid "Subscriber Template"
+msgstr ""
+
+#: admin/fields.php:196
+msgid "Unsubscriber Template"
+msgstr ""
+
+#: admin/fields.php:239 admin/fields.php:248
+msgid "There is a field that the sender must fill in"
+msgstr ""
+
+#: admin/fields.php:254
+msgid "Email address that the sender entered is invalid"
+msgstr ""
+
+#: admin/fields.php:309
+msgid "Subscribe"
+msgstr ""
+
+#: admin/class-notify-subscribers-admin.php:84
+msgid "Notification Send"
+msgstr ""
+
+#: admin/widgets/widget.php:10
+msgid "Displays Notify Subscriber"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Notify Subscribers plugin gives you an option to send post notification to "
+"Subscribers. Users by various ways can send an email notification containing "
+"post fields."
+msgstr ""
+
+#. Author of the plugin
+msgid "KrishaWeb PVT LTD"
+msgstr ""

@@ -1,0 +1,542 @@
+/******************************************************************************************
+			DEFAULT THEME #222, #333, #0073aa, #00a0d2 class="admin-color-fresh"
+******************************************************************************************/
+
+.admin-color-fresh .ns-admin-tab a.active {
+    color: #0073aa;
+    border-bottom: 4px solid #0073aa;
+}
+
+.admin-color-fresh .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #4c89a8;
+}
+
+.admin-color-fresh .ns-admin-container .button {
+    background-color: #0073aa;
+}
+
+.admin-color-fresh .ns-admin-container .button:hover,
+.admin-color-fresh .ns-admin-container .button:focus {
+    background-color: #0073aa;
+}
+
+.admin-color-fresh .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-fresh .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-fresh .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #b4b9be;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.admin-color-fresh .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #0073aa;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-fresh .ns-tab-pane .table tr th {
+    background-color: #00a0d2;
+}
+
+.admin-color-fresh .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-fresh .ns-admin-pagination .ns-icon svg {
+    fill: #0072a9;
+}
+
+.admin-color-fresh .ns-admin-pagination .previous_link {
+    color: #0072a9;
+}
+
+.admin-color-fresh .ns-admin-pagination .next_link {
+    color: #0072a9;
+}
+
+.admin-color-fresh .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-fresh .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #00a0d2;
+}
+
+
+/******************************************************************************************
+			BLUE THEME #096484, #4796b3, #52accc, #74B6CE class="admin-color-blue"
+*******************************************************************************************/
+
+.admin-color-blue .ns-admin-tab a.active {
+    color: #096484;
+    border-bottom: 4px solid #096484;
+}
+
+.admin-color-blue .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #52accc;
+}
+
+.admin-color-blue .ns-admin-container .button {
+    background-color: #096484;
+}
+
+.admin-color-blue .ns-admin-container .button:hover,
+.admin-color-blue .ns-admin-container .button:focus {
+    background-color: #096484;
+}
+
+.admin-color-blue .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-blue .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-blue .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #e2ecf1;
+    opacity: 1;
+    box-shadow: none;
+}
+
+.admin-color-blue .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #096484;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-blue .ns-tab-pane .table tr th {
+    background-color: #52accc;
+}
+
+.admin-color-blue .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-blue .ns-admin-pagination .ns-icon svg {
+    fill: #096484;
+}
+
+.admin-color-blue .ns-admin-pagination .previous_link {
+    color: #096484;
+}
+
+.admin-color-blue .ns-admin-pagination .next_link {
+    color: #096484;
+}
+
+.admin-color-blue .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-blue .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #52accc;
+}
+
+
+/********************************************************************************************
+			LIGHT THEME #e5e5e5, #999, #d64e07, #04a4cc class="admin-color-light"
+*********************************************************************************************/
+
+.admin-color-light .ns-admin-tab a.active {
+    color: #04a4cc;
+    border-bottom: 4px solid #04a4cc;
+}
+
+.admin-color-light .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #999999;
+}
+
+.admin-color-light .ns-admin-container .button {
+    background-color: #04a4cc;
+}
+
+.admin-color-light .ns-admin-container .button:hover,
+.admin-color-light .ns-admin-container .button:focus {
+    background-color: #04a4cc;
+}
+
+.admin-color-light .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-light .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-light .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #686868;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.admin-color-light .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #888888;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-light .ns-tab-pane .table tr th {
+    background-color: #999999;
+}
+
+.admin-color-light .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-light .ns-admin-pagination .ns-icon svg {
+    fill: #04a4cc;
+}
+
+.admin-color-light .ns-admin-pagination .previous_link {
+    color: #04a4cc;
+}
+
+.admin-color-light .ns-admin-pagination .next_link {
+    color: #04a4cc;
+}
+
+.admin-color-light .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-light .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #999999;
+}
+
+
+/*************************************************************************************************
+			COFFEE THEME #46403c, #59524c, #c7a589, #9ea476 class="admin-color-light"
+**************************************************************************************************/
+
+.admin-color-coffee .ns-admin-tab a.active {
+    color: #58524c;
+    border-bottom: 4px solid #58524c;
+}
+
+.admin-color-coffee .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #c7a589;
+}
+
+.admin-color-coffee .ns-admin-container .button {
+    background-color: #58524c;
+}
+
+.admin-color-coffee .ns-admin-container .button:hover,
+.admin-color-coffee .ns-admin-container .button:focus {
+    background-color: #58524c;
+}
+
+.admin-color-coffee .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-coffee .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-coffee .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #cdcbc9;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.admin-color-coffee .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #c7a589;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-coffee .ns-tab-pane .table tr th {
+    background-color: #c7a589;
+}
+
+.admin-color-coffee .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-coffee .ns-admin-pagination .ns-icon svg {
+    fill: #58524c;
+}
+
+.admin-color-coffee .ns-admin-pagination .previous_link {
+    color: #58524c;
+}
+
+.admin-color-coffee .ns-admin-pagination .next_link {
+    color: #58524c;
+}
+
+.admin-color-coffee .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-coffee .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #c7a589;
+}
+
+
+/****************************************************************************************************
+		ECTOPLASM THEME #413256, #523f6d, #a3b745, #d46f15 class="admin-color-ectoplasm"
+*****************************************************************************************************/
+
+.admin-color-ectoplasm .ns-admin-tab a.active {
+    color: #a3b745;
+    border-bottom: 4px solid #a3b745;
+}
+
+.admin-color-ectoplasm .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #523f6d;
+}
+
+.admin-color-ectoplasm .ns-admin-container .button {
+    background-color: #a3b745;
+}
+
+.admin-color-ectoplasm .ns-admin-container .button:hover,
+.admin-color-ectoplasm .ns-admin-container .button:focus {
+    background-color: #a3b745;
+}
+
+.admin-color-ectoplasm .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-ectoplasm .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-ectoplasm .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #a3b745;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.admin-color-ectoplasm .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #a3b745;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-ectoplasm .ns-tab-pane .table tr th {
+    background-color: #513f6d;
+}
+
+.admin-color-ectoplasm .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-ectoplasm .ns-admin-pagination .ns-icon svg {
+    fill: #a3b745;
+}
+
+.admin-color-ectoplasm .ns-admin-pagination .previous_link {
+    color: #a3b745;
+}
+
+.admin-color-ectoplasm .ns-admin-pagination .next_link {
+    color: #a3b745;
+}
+
+.admin-color-ectoplasm .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-ectoplasm .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #513f6d;
+}
+
+
+/************************************************************************************************
+		MIDNIGHT THEME #25282b, #363b3f, #69a8bb, #e14d43 class="admin-color-midnight"
+*************************************************************************************************/
+
+.admin-color-midnight .ns-admin-tab a.active {
+    color: #df4f48;
+    border-bottom: 4px solid #df4f48;
+}
+
+.admin-color-midnight .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #ff7a73;
+}
+
+.admin-color-midnight .ns-admin-container .button {
+    background-color: #df4f48;
+}
+
+.admin-color-midnight .ns-admin-container .button:hover,
+.admin-color-midnight .ns-admin-container .button:focus {
+    background-color: #df4f48;
+}
+
+.admin-color-midnight .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-midnight .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-midnight .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #df4f48;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.admin-color-midnight .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #df4f48;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-midnight .ns-tab-pane .table tr th {
+    background-color: #ff7a73;
+}
+
+.admin-color-midnight .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-midnight .ns-admin-pagination .ns-icon svg {
+    fill: #df4f48;
+}
+
+.admin-color-midnight .ns-admin-pagination .previous_link {
+    color: #df4f48;
+}
+
+.admin-color-midnight .ns-admin-pagination .next_link {
+    color: #df4f48;
+}
+
+.admin-color-midnight .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-midnight .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #ff7a73;
+}
+
+
+/**********************************************************************************************
+		OCEAN THEME #627c83, #738e96, #9ebaa0, #aa9d88 class="admin-color-ocean"
+**********************************************************************************************/
+
+.admin-color-ocean .ns-admin-tab a.active {
+    color: #9ebaa0;
+    border-bottom: 4px solid #9ebaa0;
+}
+
+.admin-color-ocean .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #738e95;
+}
+
+.admin-color-ocean .ns-admin-container .button {
+    background-color: #9ebaa0;
+}
+
+.admin-color-ocean .ns-admin-container .button:hover,
+.admin-color-ocean .ns-admin-container .button:focus {
+    background-color: #9ebaa0;
+}
+
+.admin-color-ocean .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-ocean .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-ocean .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #d5dde0;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.admin-color-ocean .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #9ebaa0;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-ocean .ns-tab-pane .table tr th {
+    background-color: #738e95;
+}
+
+.admin-color-ocean .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-ocean .ns-admin-pagination .ns-icon svg {
+    fill: #9ebaa0;
+}
+
+.admin-color-ocean .ns-admin-pagination .previous_link {
+    color: #9ebaa0;
+}
+
+.admin-color-ocean .ns-admin-pagination .next_link {
+    color: #9ebaa0;
+}
+
+.admin-color-ocean .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-ocean .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #738e95;
+}
+
+
+/************************************************************************************************
+		SUNRISE THEME #b43c38, #cf4944, #dd823b, #ccaf0b class="admin-color-sunrise"
+*************************************************************************************************/
+
+.admin-color-sunrise .ns-admin-tab a.active {
+    color: #de823c;
+    border-bottom: 4px solid #de823c;
+}
+
+.admin-color-sunrise .ns-admin-panel-title .ns-admin-panel-title-icon {
+    background-color: #d04944;
+}
+
+.admin-color-sunrise .ns-admin-container .button {
+    background-color: #dd823b;
+}
+
+.admin-color-sunrise .ns-admin-container .button:hover,
+.admin-color-sunrise .ns-admin-container .button:focus {
+    background-color: #dd823b;
+}
+
+.admin-color-sunrise .ns-admin-checkbox-inner>label::before {
+    background-color: #d6d6d6;
+}
+
+.admin-color-sunrise .ns-admin-checkbox-inner>label::after {
+    background-color: #9b9b9b;
+}
+
+.admin-color-sunrise .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::before {
+    background: #f1c8c7;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.admin-color-sunrise .ns-admin-checkbox-inner>input[type="checkbox"]:checked+label::after {
+    background: #dd823b;
+    left: 26px;
+    box-shadow: none;
+}
+
+.admin-color-sunrise .ns-tab-pane .table tr th {
+    background-color: #d04944;
+}
+
+.admin-color-sunrise .short-code-list li a {
+    color: #0175b7;
+}
+
+.admin-color-sunrise .ns-admin-pagination .ns-icon svg {
+    fill: #dd823b;
+}
+
+.admin-color-sunrise .ns-admin-pagination .previous_link {
+    color: #dd823b;
+}
+
+.admin-color-sunrise .ns-admin-pagination .next_link {
+    color: #dd823b;
+}
+
+.admin-color-sunrise .ns-admin-container .dataTables_paginate .pagination li:hover a,
+.admin-color-sunrise .ns-admin-container .dataTables_paginate .pagination li.active a {
+    background-color: #d04944;
+}

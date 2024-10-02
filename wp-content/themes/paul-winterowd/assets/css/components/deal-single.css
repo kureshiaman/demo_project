@@ -1,0 +1,145 @@
+.deal-single {
+  padding: 50px 0 57px;
+}
+
+.deal-single .container {
+  max-width: 1146px;
+}
+
+.deal-single .deal-head h2 {
+  padding: 0 0 20px;
+}
+
+.deal-single .deal-head .deal-img {
+  padding: 0 0 100%;
+  position: relative;
+  min-height: 180px;
+}
+
+.deal-single .deal-head .deal-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.deal-single .tag {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+  padding: 0;
+  text-transform: uppercase;
+  color: #1a263a;
+}
+
+.deal-single .tag span {
+  color: #a3a3a3;
+}
+
+.deal-single .tag a {
+  color: currentColor;
+}
+
+.deal-single .tag a:is(:hover, :focus) {
+  color: #9BB1CB;
+}
+
+.deal-single .deal-content {
+  margin: 0 auto 0;
+  padding: 0px 0 56px;
+}
+
+.deal-single .deal-content :is(p, li) {
+  font-size: 18px;
+  line-height: 1.388;
+}
+
+.deal-single .deal-content>*:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.deal-single .deal-content :is(ul, ol) {
+  padding: 13px 0 13px 37px;
+}
+
+.deal-single .deal-content :is(h1, h2, h3, h4, h5, h6) {
+  padding: 20px 0 10px;
+}
+
+.deal-single .deal-content> :is(h1, h2, h3, h4, h5, h6):first-child {
+  padding-top: 0;
+}
+
+.deal-single .next-prev {
+  padding: 62px 0 0;
+}
+
+.deal-single .btn-wrap {
+  padding: 54px 0 0;
+}
+
+@media(max-width:1199px) {
+
+  .deal-single {
+    padding: 50px 0;
+  }
+
+  .deal-single .deal-content {
+    padding: 0px 0 50px;
+  }
+
+  .deal-single .next-prev {
+    padding: 50px 0 0;
+  }
+
+  .deal-single .btn-wrap {
+    padding: 50px 0 0;
+  }
+}
+
+@media(max-width:991px) {
+  .deal-single {
+    padding: 40px 0;
+  }
+
+  .deal-single .deal-content {
+    padding: 0 0 40px;
+  }
+
+  .deal-single .next-prev {
+    padding: 40px 0 0;
+  }
+
+  .deal-single .btn-wrap {
+    padding: 40px 0 0;
+  }
+}
+
+@media(max-width:767px) {
+  .deal-single {
+    padding: 30px 0;
+  }
+
+  .deal-single .deal-content {
+    padding: 0 0 30px;
+  }
+
+  .deal-single .next-prev {
+    padding: 30px 0 0;
+  }
+
+  .deal-single .deal-head h2 {
+    padding: 0 0 15px;
+  }
+
+  .deal-single .deal-content :is(ul, ol) {
+    padding: 13px 0 13px 10px;
+  }
+
+  .deal-single .btn-wrap {
+    padding: 30px 0 0;
+  }
+}

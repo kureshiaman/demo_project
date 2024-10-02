@@ -1,0 +1,177 @@
+.section-newsletter {
+  background: no-repeat center bottom / cover;
+  border-top: 10px solid #e59e12;
+  border-bottom: 10px solid #e59e12;
+  position: relative;
+  z-index: 2;
+}
+
+.section-newsletter .container {
+  max-width: 1180px;
+}
+
+.section-newsletter .newsletter-wrap {
+  display: flex;
+  margin: 0 -15px -30px;
+}
+
+.section-newsletter .newsletter-wrap>div {
+  padding: 0 15px 30px;
+}
+
+.section-newsletter .news-left {
+  display: flex;
+  align-items: center;
+  width: 41.3%;
+  flex-shrink: 0;
+  margin: -34px 0;
+}
+
+.section-newsletter .news-right {
+  display: flex;
+  align-items: center;
+}
+
+.section-newsletter .newsletter {
+  padding: 15px 0;
+}
+
+.section-newsletter .title h2 {
+  padding: 0 0 20px;
+}
+
+.section-newsletter p {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #1a263a;
+  max-width: 630px;
+  margin: 0;
+}
+
+.newsletter .ns-wrapper {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.newsletter .ns-form {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 25px 0;
+  margin: 0 -15px;
+}
+
+.newsletter .ns-form :is(.ns-group, .ns-action) {
+  padding: 0 15px;
+}
+
+.newsletter .ns-form .ns-group {
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+
+.newsletter .ns-form .ns-group input {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #1a263a;
+  padding: 10px 20px;
+  border: 1px solid #1a263a;
+  width: 100%;
+  height: 48px;
+  border-radius: 0;
+}
+
+.newsletter .ns-form .ns-group input:-webkit-input-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.newsletter .ns-form .ns-group input:-moz-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.newsletter .ns-form .ns-group input::-moz-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.newsletter .ns-form .ns-group input:-ms-input-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.section-newsletter .ns-form .ns-submit {
+  text-shadow: none;
+}
+
+.section-newsletter .ns-form .ns-submit:is(:active, :focus, :hover),
+.section-newsletter .input-box .btn:is(:active, :focus, :hover) {
+  color: #9bb1cb !important;
+  border-color: #9bb1cb;
+}
+
+.section-newsletter .note {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #5b7796;
+}
+
+.newsletter .ns-container {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  max-width: 572px;
+}
+
+.newsletter .ns-form span.ns-error {
+  position: absolute;
+  left: 10px;
+}
+
+@media(max-width:767px) {
+  .section-newsletter .newsletter-wrap {
+    flex-direction: column;
+  }
+
+  .section-newsletter .news-left {
+    width: 100%;
+    justify-content: center;
+    padding: 0 15px 40px !important;
+  }
+
+  .section-newsletter .title h2 {
+    padding: 0 0 15px;
+  }
+
+  .section-newsletter p {
+    font-size: 16px;
+  }
+
+  .section-newsletter .note {
+    font-size: 16px;
+  }
+
+  .section-newsletter .newsletter {
+    width: 100%;
+  }
+
+  .newsletter .ns-container {
+    max-width: 100%;
+  }
+}
+
+@media(max-width:575px) {
+
+  .newsletter .ns-form {
+    margin: 0 -8px;
+  }
+
+  .newsletter .ns-form :is(.ns-group, .ns-action) {
+    padding: 0 8px;
+  }
+}

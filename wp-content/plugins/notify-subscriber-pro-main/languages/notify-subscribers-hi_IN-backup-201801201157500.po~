@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-20 11:57+0000\n"
+"PO-Revision-Date: 2018-01-20 11:57+0000\n"
+"Last-Translator: admin <test@krishaweb.com>\n"
+"Language-Team: Hindi\n"
+"Language: hi-IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: admin/form.php:267
+msgid "Next"
+msgstr "अगला"
+
+#. Description of the plugin
+msgid ""
+"Notify Subscribers plugin gives you an option to send post notification to "
+"Subscribers. Users by various ways can send an email notification containing "
+"post fields."
+msgstr ""
+
+#: functions.php:27 admin/form.php:177
+msgid "Unsubscriber"
+msgstr "अनसब्स्क्राइब"
+
+#: functions.php:31
+msgid "Unsubscribe request are accept."
+msgstr "सदस्यता रद्द करने का अनुरोध स्वीकार कर लिया है."
+
+#: functions.php:38 admin/form.php:176
+msgid "Subscriber"
+msgstr "सब्सक्राइबर"
+
+#: functions.php:42
+msgid "Thank You For Subscriber."
+msgstr "सब्सक्राइबर के लिए आपका धन्यवाद"
+
+#: functions.php:84
+msgid "You are logged in!"
+msgstr "लॉगइन हो गया है!"
+
+#: notify-subscribers.php:27
+msgid ""
+"notify-subscribers plugin's core files are missing! Please re-install the "
+"plugin."
+msgstr ""
+"अधिसूचना- ग्राहक प्लगइन की मुख्य फाइलें गायब हैं! कृपया प्लगइन पुनः स्थापित "
+"करें"
+
+#. Name of the plugin
+#: notify-subscribers.php:55 notify-subscribers.php:55
+#: admin/widgets/widget.php:10
+msgid "Notify Subscribers"
+msgstr "नोटीफाय सब्स्कराइबसॅ"
+
+#: public/class-notify-subscribers-public.php:14
+#: public/class-notify-subscribers-public.php:15
+msgid "The field is required"
+msgstr "क्षेत्र की आवश्यकता है"
+
+#: public/class-notify-subscribers-public.php:16
+msgid "The e-mail address entered is invalid"
+msgstr "दर्ज ई-मेल पता अमान्य है"
+
+#: includes/class-notify-subscribers.php:228
+#, php-format
+msgid "%s: "
+msgstr "%s: "
+
+#: includes/class-notify-subscribers.php:229
+#, php-format
+msgid "Username: %s"
+msgstr "उपयोगकर्ता का नाम: %s"
+
+#: includes/class-notify-subscribers.php:230
+#, php-format
+msgid "Email: %s"
+msgstr "ईमेल: %s"
+
+#: includes/class-notify-subscribers.php:232
+#: admin/class-notify-subscribers-admin.php:53 admin/widgets/widget.php:22
+#: admin/widgets/widget.php:26
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: admin/form.php:124
+msgid "save"
+msgstr "बचाना"
+
+#: admin/form.php:135
+msgid "You do not have admin privileges!"
+msgstr "आपके पास व्यवस्थापक अधिकार नहीं हैं!"
+
+#: admin/form.php:148
+msgid "Settings saved."
+msgstr "सेटिंग्स को सहेजा गया।"
+
+#: admin/form.php:149
+msgid "Dismiss this notice."
+msgstr "इस नोटिस को खारिज करें।"
+
+#: admin/form.php:161
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: admin/form.php:162
+msgid "Email Templates"
+msgstr "ईमेल टेम्पलेट्स"
+
+#: admin/form.php:163
+msgid "Error Message"
+msgstr "त्रुटि संदेश"
+
+#: admin/form.php:164
+msgid "Short Code"
+msgstr "छोटे कोड"
+
+#: admin/form.php:165
+msgid "User Details"
+msgstr "उपयोगकर्ता का विवरण"
+
+#: admin/form.php:175
+msgid "Notification"
+msgstr "अधिसूचना"
+
+#: admin/form.php:193
+msgid "Following are the keywords, you can you use in email template."
+msgstr "निम्नलिखित कीवर्ड हैं, आप ईमेल टेम्प्लेट में उपयोग कर सकते हैं।"
+
+#: admin/form.php:194
+msgid ""
+"Copy the keyword with bracket & curly braces and paste it into email "
+"template."
+msgstr ""
+"ब्रैकेट और घुंघराले ब्रेसिज़ के साथ कीवर्ड की प्रतिलिपि बनाएं और उसे ईमेल "
+"टेम्प्लेट में पेस्ट करें।"
+
+#: admin/form.php:197
+msgid "Global ShortCode"
+msgstr "वैश्विक छोटे संकेत"
+
+#: admin/form.php:199
+msgid "[{SITE_NAME}]"
+msgstr "[{SITE_NAME}]"
+
+#: admin/form.php:199
+msgid "site name"
+msgstr "साइट का नाम"
+
+#: admin/form.php:200
+msgid "[{SITE_URL}]"
+msgstr "[{SITE_URL}]"
+
+#: admin/form.php:201
+msgid "[{SITE_LINK}]"
+msgstr "[{SITE_LINK}]"
+
+#: admin/form.php:201
+msgid "siteurl"
+msgstr "साईट यूआरएल"
+
+#: admin/form.php:202
+msgid "[{SITE_DESCRIPTION}]"
+msgstr "[{SITE_DESCRIPTION}]"
+
+#: admin/form.php:202
+msgid "site description"
+msgstr "साइट का वर्णन"
+
+#: admin/form.php:203
+msgid "[{ADMIN_EMAIL}]"
+msgstr "[{ADMIN_EMAIL}]"
+
+#: admin/form.php:204
+msgid "[{UNSUBSCRIBE}]"
+msgstr "[{UNSUBSCRIBE}]"
+
+#: admin/form.php:204
+msgid "Unsubscriber "
+msgstr "अनसब्स्कराइबसॅ"
+
+#: admin/form.php:204
+msgid "page. (Use ONLY for Post Notification email)"
+msgstr "पृष्ठ. (केवल पोस्ट सूचना ईमेल के लिए उपयोग करें)"
+
+#: admin/form.php:208
+msgid "Post/Page Notification ShortCode"
+msgstr "पोस्ट / पृष्ठ सूचना छोटे संकेत"
+
+#: admin/form.php:210
+msgid "[{POST_NAME}]"
+msgstr "[{POST_NAME}]"
+
+#: admin/form.php:210
+msgid "Title of the published post"
+msgstr "प्रकाशित पोस्ट का शीर्षक"
+
+#: admin/form.php:211
+msgid "[{POST_CONTENT}]"
+msgstr "[{POST_CONTENT}]"
+
+#: admin/form.php:211
+msgid "Content of published post"
+msgstr "प्रकाशित पोस्ट की कंटेंट"
+
+#: admin/form.php:212
+msgid "[{POST_EXCERPT}]"
+msgstr "[{POST_EXCERPT}]"
+
+#: admin/form.php:212
+msgid "Excerpt of published post. Note: Excerpt field must not empty!"
+msgstr "प्रकाशित पोस्ट का उद्धरण नोट: अंश क्षेत्र खाली नहीं होना चाहिए!"
+
+#: admin/form.php:213
+msgid "[{POST_CATEGORIES}]"
+msgstr "[{POST_CATEGORIES}]"
+
+#: admin/form.php:213
+msgid "Category of published post"
+msgstr "प्रकाशित पोस्ट श्रेणी"
+
+#: admin/form.php:214
+msgid "[{POST_TAGS}]"
+msgstr "[{POST_TAGS}]"
+
+#: admin/form.php:214
+msgid "Tags of published post"
+msgstr "प्रकाशित पोस्ट के टैग"
+
+#: admin/form.php:215
+msgid "[{POST_FEATURED_IMAGE}]"
+msgstr "[{POST_FEATURED_IMAGE}]"
+
+#: admin/form.php:215
+msgid ""
+"Featured image (thumbnail) of published post. (Use ONLY with Post "
+"Notification)"
+msgstr ""
+"प्रकाशित पोस्ट की फीचर्ड इमेज (थंबनेल) (पोस्ट सूचना के साथ ही उपयोग करें)"
+
+#: admin/form.php:216
+msgid "[{PERMALINK}]"
+msgstr "[{PERMALINK}]"
+
+#: admin/form.php:216
+msgid "URL of published post"
+msgstr "प्रकाशित पोस्ट का यूआरएलप्रकाशित पोस्ट का यूआरएल"
+
+#: admin/form.php:217
+msgid "[{AUTHOR}]"
+msgstr "[{AUTHOR}]"
+
+#: admin/form.php:217
+msgid "Author Name of published post"
+msgstr "प्रकाशित पोस्ट के लेखक का नाम"
+
+#: admin/form.php:218
+msgid "[{AUTHOR_EMAIL}]"
+msgstr "[{AUTHOR_EMAIL}]"
+
+#: admin/form.php:218
+msgid "Email of author of published post"
+msgstr "प्रकाशित पोस्ट के लेखक का ईमेल"
+
+#: admin/form.php:224
+msgid "Export To CSV"
+msgstr "सीएसवी को निर्यात"
+
+#: admin/form.php:225
+msgid "Export To PDF"
+msgstr "पीडीएफ को निर्यात करें"
+
+#: admin/form.php:230
+msgid "#"
+msgstr "#"
+
+#: admin/form.php:231 admin/fields.php:30 admin/fields.php:235
+msgid "First Name"
+msgstr "पहला नाम"
+
+#: admin/form.php:232 admin/fields.php:62
+msgid "Last Name"
+msgstr "अंतिम नाम"
+
+#: admin/form.php:233
+msgid "Username"
+msgstr "उपयोगकर्ता का नाम"
+
+#: admin/form.php:234 admin/fields.php:97 admin/fields.php:244
+msgid "Email"
+msgstr "ईमेल"
+
+#: admin/form.php:235
+msgid "Role"
+msgstr "भूमिका"
+
+#: admin/form.php:236
+msgid "Member Since"
+msgstr "से सदस्ये"
+
+#: admin/form.php:266
+msgid "Previous"
+msgstr "पिछला"
+
+#: admin/fields.php:21
+msgid "Form"
+msgstr "फोर्म"
+
+#: admin/fields.php:24 admin/fields.php:50 admin/fields.php:82
+#: admin/fields.php:112 admin/fields.php:133
+msgid "Class"
+msgstr "कक्षा"
+
+#: admin/fields.php:33 admin/fields.php:65
+msgid "Enable"
+msgstr "सक्रिय"
+
+#: admin/fields.php:38 admin/fields.php:70 admin/fields.php:100
+msgid "Label"
+msgstr "लेबल"
+
+#: admin/fields.php:44 admin/fields.php:76 admin/fields.php:106
+msgid "Wrapper"
+msgstr "रैपर"
+
+#: admin/fields.php:56 admin/fields.php:88 admin/fields.php:118
+msgid "Placeholder"
+msgstr "प्लेसहोल्डर"
+
+#: admin/fields.php:124
+msgid "submit button"
+msgstr "सबमिट बटन"
+
+#: admin/fields.php:127
+msgid "Name"
+msgstr "नाम"
+
+#: admin/fields.php:160
+msgid "Notification Template"
+msgstr "अधिसूचना टेम्पलेट"
+
+#: admin/fields.php:164 admin/fields.php:182 admin/fields.php:200
+msgid "Subject"
+msgstr "विषय"
+
+#: admin/fields.php:170 admin/fields.php:188 admin/fields.php:206
+msgid "Body"
+msgstr "बोडी"
+
+#: admin/fields.php:178
+msgid "Subscriber Template"
+msgstr "सब्सक्राइबर टेम्पलेट"
+
+#: admin/fields.php:196
+msgid "Unsubscriber Template"
+msgstr "अनसब्स्क्राइब टेम्पलेट"
+
+#: admin/fields.php:239 admin/fields.php:248
+msgid "There is a field that the sender must fill in"
+msgstr "एक ऐसा क्षेत्र है जिसमें प्रेषक को भरना होगा"
+
+#: admin/fields.php:254
+msgid "Email address that the sender entered is invalid"
+msgstr "जो ईमेल पता दर्ज किया गया है वह अवैध है"
+
+#: admin/fields.php:309
+msgid "Subscribe"
+msgstr "सब्सक्राइब"
+
+#: admin/class-notify-subscribers-admin.php:84
+msgid "Notification Send"
+msgstr "सुझाव भेजा"
+
+#: admin/widgets/widget.php:10
+msgid "Displays Notify Subscriber"
+msgstr "दिखाता है सब्सक्राइबर को सूचित करें"
+
+#. Author of the plugin
+msgid "KrishaWeb PVT LTD"
+msgstr "क्रिशा वेब प्राइवेट लिमिटेड"

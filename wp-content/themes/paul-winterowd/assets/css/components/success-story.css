@@ -1,0 +1,161 @@
+.success-story {
+  overflow: hidden;
+  padding: 56px 0 63px;
+}
+
+.success-story .title {
+  padding: 0 0 59px;
+}
+
+.success-story .title .sub-text {
+  padding: 25px 0 0;
+}
+
+.success-story .title .sub-text p {
+  font-weight: 600;
+}
+
+.success-story .story-list {
+  max-width: 997px;
+  margin: 0 auto;
+}
+
+.success-story .story-list>ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
+}
+
+.success-story .story-list>ul>li {
+  padding: 0 15px 30px;
+  width: 100%;
+}
+
+.success-story .btn-wrap {
+  padding: 58px 0 0;
+}
+
+.story-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-box .story-img {
+  width: 100%;
+  padding: 0 0 58.446%;
+  position: relative;
+  display: inline-block;
+}
+
+.story-box .story-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-box .story-info {
+  padding: 31px 0 0;
+  text-align: center;
+}
+
+.story-box .story-info h3 {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #1a263a;
+  padding: 0 0 18px;
+}
+
+.story-box .story-info h3 a {
+  color: currentColor;
+}
+
+.story-box .story-info h3 a:hover {
+  color: #5B7796;
+}
+
+.story-box .story-info p {
+  line-height: 1.2;
+  color: #1a263a;
+  text-align: left;
+  max-width: 402px;
+  margin: 0 auto;
+}
+
+@media(min-width:768px) {
+  .story-box .story-info p {
+    font-size: 18px
+  }
+
+  .success-story .story-list>ul {
+    margin: 0 -16px -50px;
+  }
+
+  .success-story .story-list>ul>li {
+    width: 50%;
+    padding: 0 16px 50px;
+  }
+}
+
+@media(min-width:992px) {
+  .success-story .story-list>ul {
+    margin: 0 -16px -75px;
+  }
+
+  .success-story .story-list>ul>li {
+    padding: 0 16px 75px;
+  }
+}
+
+@media(max-width:1199px) {
+  .success-story {
+    padding: 55px 0;
+  }
+
+  .success-story .title {
+    padding: 0 0 50px;
+  }
+
+  .success-story .btn-wrap {
+    padding: 50px 0 0;
+  }
+}
+
+@media(max-width:991px) {
+  .success-story {
+    padding: 45px 0;
+  }
+
+  .success-story .title {
+    padding: 0 0 40px;
+  }
+
+  .success-story .btn-wrap {
+    padding: 40px 0 0;
+  }
+}
+
+@media(max-width:767px) {
+  .success-story {
+    padding: 30px 0;
+  }
+
+  .success-story .title {
+    padding: 0 0 25px;
+  }
+
+  .success-story .btn-wrap {
+    padding: 35px 0 0;
+  }
+
+  .story-box .story-info {
+    padding: 15px 0 0;
+  }
+
+  .story-box .story-info h3 {
+    padding: 0 0 10px;
+  }
+}

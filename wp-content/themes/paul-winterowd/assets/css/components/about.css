@@ -1,0 +1,140 @@
+.about {
+  padding: 87px 0 65px;
+}
+
+.about .container {
+  max-width: 1110px;
+}
+
+.about .btn-wrap {
+  padding: 103px 0 0;
+}
+
+.about .about-box-wrap {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about .img-box {
+  box-shadow: -16px 17px 0px 0px #9bb1cb;
+}
+
+.about .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about .inner-section:not(:last-child) {
+  padding: 0 0 91px;
+}
+
+.about .inner-section:nth-child(odd) .img-box {
+  width: 43.8%;
+  flex-shrink: 0;
+}
+
+.about .inner-section:nth-child(odd) .about-info {
+  padding-right: 58px;
+}
+
+.about .inner-section:nth-child(even) .img-box {
+  width: 29%;
+  flex-shrink: 0;
+  margin-left: 42px;
+}
+
+.about .inner-section:nth-child(even) .about-info {
+  padding-left: 87px;
+}
+
+.about .content-box h2 {
+  padding: 0 0 22px;
+}
+
+.about .content-box p:last-child {
+  margin: 0;
+}
+
+@media(min-width:768px) {
+  .about .inner-section:nth-child(odd) .about-box-wrap {
+    flex-direction: row-reverse;
+  }
+}
+
+@media(max-width:1199px) {
+  .about {
+    padding: 55px 0;
+  }
+
+  .about .inner-section:not(:last-child) {
+    padding: 0 0 55px;
+  }
+
+  .about .btn-wrap {
+    padding: 70px 0 0;
+  }
+
+  .about .inner-section:nth-child(even) .about-info {
+    padding-left: 50px;
+  }
+
+  .about .inner-section:nth-child(odd) .about-info {
+    padding-right: 50px;
+  }
+}
+
+@media(max-width:991px) {
+  .about {
+    padding: 45px 0;
+  }
+
+  .about .inner-section:not(:last-child) {
+    padding: 0 0 45px;
+  }
+
+  .about .btn-wrap {
+    padding: 50px 0 0;
+  }
+
+  .about .inner-section:nth-child(even) .about-info {
+    padding-left: 30px;
+  }
+
+  .about .inner-section:nth-child(odd) .about-info {
+    padding-right: 30px;
+  }
+}
+
+@media(max-width:767px) {
+  .about {
+    padding: 30px 0 45px;
+  }
+
+  .about .about-box-wrap {
+    flex-direction: column;
+  }
+
+  .about .inner-section:nth-child(odd) .img-box,
+  .about .inner-section:nth-child(even) .img-box {
+    width: calc(100% - 16px);
+    margin-left: 16px;
+  }
+
+  .about .inner-section:nth-child(odd) .about-info,
+  .about .inner-section:nth-child(even) .about-info {
+    padding: 30px 0 0;
+  }
+
+  .about .inner-section:not(:last-child) {
+    padding: 0 0 30px;
+  }
+
+  .about .btn-wrap {
+    padding: 40px 0 0;
+  }
+
+  .about .content-box h2 {
+    padding: 0 0 15px;
+  }
+}

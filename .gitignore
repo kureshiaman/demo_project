@@ -1,0 +1,56 @@
+# ignore everything in the root except the "wp-content" directory.
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# ignore these plugins
+wp-content/plugins/hello.php
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# ignore node dependency directories
+node_modules/
+wp-content/themes/zadoon/node_modules/
+db/
+wp-content/themes/zadoon/vendor/
+/vendor/
+# htaccess
+/.htaccess
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# ignore files
+wp-config.php
+.htaccess
+robots.txt
+
+# ignore folder
+wp-content/uploads/
+/.well-known
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db

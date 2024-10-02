@@ -1,0 +1,269 @@
+.contact {
+  position: relative;
+}
+
+.contact::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(280deg, rgba(233, 190, 79, 0.6) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.contact .contact-wrap {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  margin: 0 -15px;
+}
+
+.contact .contact-wrap>div {
+  padding: 0 15px;
+}
+
+.contact .contact-wrap .contact-left {
+  padding-top: 52px;
+  padding-bottom: 30px;
+}
+
+.contact .contact-wrap .contact-right {
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.contact .contact-wrap .img-box {
+  max-width: 487px;
+  margin: -60px 0 0;
+}
+
+.contact .contact-wrap .title {
+  padding: 0 0 33px;
+}
+
+.contact .title .sub-text {
+  padding: 26px 0 0;
+}
+
+.contact .title .sub-text p {
+  line-height: 1.388;
+}
+
+.contact .contact-info {
+  padding: 54px 72px;
+  background: #fff;
+}
+
+.contact .contact-info ul li {
+  display: block;
+}
+
+.contact .contact-info ul li a {
+  font-size: 23px;
+  color: #415a76;
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact .contact-info ul li a:hover {
+  color: #e59e12;
+}
+
+.contact .contact-info ul li a .icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact .contact-info ul li:not(:last-child) {
+  padding: 0 0 16px;
+}
+
+.get-in-touch {
+  padding: 67px 0 80px;
+  background: #415a76;
+}
+
+.get-in-touch .title {
+  padding: 0 0 65px;
+}
+
+.get-in-touch .title h2 {
+  color: #fff;
+}
+
+.get-in-touch-form {
+  padding: 60px;
+  background: #fff;
+  max-width: 898px;
+  margin: 0 auto;
+}
+
+.get-in-touch-form .row {
+  margin: 0 -15px -35px;
+}
+
+.get-in-touch-form .row>div {
+  padding: 0 15px 35px;
+}
+
+.get-in-touch :is(input, textarea):not(.btn) {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #000;
+  border: 2px solid #818892;
+  border-radius: 0;
+  height: 48px;
+  padding: 10px 19px;
+  outline: none;
+  box-shadow: none;
+  background: #ffffff;
+}
+
+.get-in-touch :is(input, textarea):not(.btn):focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.get-in-touch .input-box textarea {
+  height: 192px;
+}
+
+.get-in-touch :is(input, textarea):not(.btn):-webkit-input-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.get-in-touch :is(input, textarea):not(.btn):-moz-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.get-in-touch :is(input, textarea):not(.btn)::-moz-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.get-in-touch :is(input, textarea):not(.btn):-ms-input-placeholder {
+  opacity: 0.55;
+  color: #1a263a;
+}
+
+.get-in-touch .wpcf7-not-valid-tip {
+  font-size: 14px;
+  padding: 4px 0 0;
+}
+
+.get-in-touch .wpcf7-response-output {
+  display: none;
+}
+
+.get-in-touch .wpcf7-spinner {
+  margin: 0px 24px -10px;
+}
+
+.get-in-touch .btn-wrap {
+  padding-left: 60px;
+}
+
+
+@media(max-width:1199px) {
+  .contact .contact-info {
+    padding: 40px;
+  }
+
+  .contact .contact-wrap .contact-right {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .contact .contact-wrap .contact-left {
+    padding-top: 50px;
+  }
+
+  .get-in-touch {
+    padding: 50px 0;
+  }
+
+  .get-in-touch .title {
+    padding: 0 0 50px;
+  }
+
+  .get-in-touch-form {
+    padding: 50px;
+  }
+}
+
+@media(max-width:991px) {
+  .contact .contact-wrap {
+    flex-direction: column;
+  }
+
+  .contact .contact-info {
+    padding: 30px;
+  }
+
+  .contact .contact-wrap .img-box {
+    margin: 0;
+  }
+
+  .contact .contact-info ul li a {
+    font-size: 18px;
+  }
+
+  .contact .contact-wrap .contact-left {
+    padding-top: 40px;
+  }
+
+  .get-in-touch {
+    padding: 40px 0;
+  }
+
+  .get-in-touch .title {
+    padding: 0 0 40px;
+  }
+
+  .get-in-touch-form {
+    padding: 40px;
+  }
+
+}
+
+@media(max-width:767px) {
+  .contact .contact-wrap .contact-left {
+    padding-top: 30px;
+  }
+
+  .contact .contact-wrap .title {
+    padding: 0 0 25px;
+  }
+
+  .contact .title .sub-text {
+    padding: 15px 0 0;
+  }
+
+  .contact .contact-info {
+    padding: 20px;
+  }
+
+  .contact .contact-info ul li a {
+    font-size: 16px;
+  }
+
+  .get-in-touch {
+    padding: 30px 0;
+  }
+
+  .get-in-touch .title {
+    padding: 0 0 30px;
+  }
+
+  .get-in-touch-form {
+    padding: 30px 20px;
+  }
+}
